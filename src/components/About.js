@@ -12,7 +12,7 @@ function About(props) {
 
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
       {/* add your <Links /> component here */}
-      <Links links={props.links} />
+      <Links link={props.links} />
     </div>
   );
 }
